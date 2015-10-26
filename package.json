@@ -1,0 +1,49 @@
+{
+  "name": "clone-class",
+  "version": "1.0.0",
+  "description": "clone a class including prototype chain (except for native types)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "101": "^1.2.0",
+    "clone": "^1.0.2",
+    "code": "^1.5.0",
+    "lab": "^6.2.0",
+    "native-types": "^1.0.0",
+    "protochain": "^1.0.3",
+    "standard": "^5.3.1"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "lab": "^6.2.0",
+    "nodemon": "^1.8.0",
+    "standard": "^5.3.1"
+  },
+  "scripts": {
+    "test": "lab --assert code --threshold 100 test",
+    "test-watch": "nodemon -x npm test",
+    "lint": "standard",
+    "format": "standard --format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjmehta/clone-class.git"
+  },
+  "keywords": [
+    "clone",
+    "class",
+    "deep",
+    "copy",
+    "prototype",
+    "proto",
+    "chain"
+  ],
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/clone-class/issues"
+  },
+  "homepage": "https://github.com/tjmehta/clone-class"
+}
